@@ -1,0 +1,201 @@
+{% extends 'base.html' %}
+
+
+{% block container_intro_wrapper %}
+    <!--banner-->
+    <div id="banner">
+        <div class="container intro_wrapper">
+            <div class="inner_content">
+{#                <h1>ITO</h1>#}
+                <h1 class="title">Information Technology Outsourcing - ITO</h1>
+
+                <h1 class="intro">
+                    Our <span class="hue">ITO services</span> are designed to improve resource allocation and
+                    utilization, which
+                    allows management to focus resources on the company’s core operations.
+                    <span>These Services Include:</span>
+                    System life cycle management (planning, analysis, design, testing, and implementation) as well as
+                    system maintenance (system operation service, troubleshooting, new service development).
+
+                    And with service models designed around project support and on-site/near-site/off-shore delivery,
+                    HUIYU HI-TECH partners that use our Offshore Development Center (ODC) are rewarded with
+                    cost-effective
+                    services and improved skills management.
+                </h1>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+<div class="pad30"></div>
+{% block container_wrapper %}
+
+    <div class="container wrapper">
+        <div class="inner_content">
+
+            <div class="row">
+                <div class="span9 pad15">
+
+                    <!-- slider starts -->
+                    <div id="nslider" class="nivoSlider">
+                        <!-- add your images here -->
+                        <img src="/static/img/large/2.jpg" alt="" title="#nivocaption1"/>
+                        <img src="/static/img/large/1.jpg" alt="" title="#nivocaption2"/>
+                        <img src="/static/img/large/3.jpg" alt="" title="#nivocaption3"/>
+                        <img src="/static/img/large/4.jpg" alt="" title="#nivocaption4"/>
+                    </div>
+
+                    <!-- add your captions here -->
+                    <div id="nivocaption1" class="nivo-html-caption">Caption One</div>
+                    <div id="nivocaption2" class="nivo-html-caption">Caption Two</div>
+                    <div id="nivocaption3" class="nivo-html-caption">Caption Three</div>
+                    <div id="nivocaption4" class="nivo-html-caption">Caption Four</div>
+
+                    <h2><span>Development Center</span></h2>
+                    <p>By helping customers clarify their goals every step of the way, HUIYU HI-TECH development centers
+                        provide extensive system operation services, problem solving and solution development for our
+                        customers until a problem is resolved or a solution identified.
+
+                        Our comprehensive system development models include planning, analysis, design and testing and
+                        follow a project through final implementation.</p>
+                    <h2><span>Operation Maintenance</span></h2>
+                    <p>HUIYU HI-TECH operation maintenance services extend the life of our client’s IT practices by
+                        ensuring that all IT solutions operate in an optimal manner.
+
+                        From infrastructure development to application support, our team of experts maintains the IT
+                        assets that keep the businesses running.</p>
+                    <h2><span>Service Desk & Call Center</span></h2>
+                    <p>Through a global network of service desk specialists, HUIYU HI-TECH provides call center services
+                        in customer-specific languages that ensure successful software deployments and streamline
+                        production environments.</p>
+
+                </div>
+
+                <!-- sidebar -->
+
+                <div class="span3 marg-topminus1">
+                    <h4><span>Information Technology Outsourcing</span></h4>
+                    <p>These Services Include:</p>
+
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-check colour"></i> Development Center</li>
+                        <li><i class="fa-li fa fa-check colour"></i> Operation Maintenance</li>
+                        <li><i class="fa-li fa fa-check colour"></i> Service Desk & Call Center</li>
+                    </ul>
+
+                    <h5>News</h5>
+                    {#                    <p>Watch this space for all of our news and current updates.</p>#}
+                    <div class="pad30"></div>
+                    <div class="col_full">
+
+                        <div id="slider_small">
+                            <div class="slider-item">
+                                <div class="slider-image">
+                                    <div class="hover_colour">
+                                        <a href="/static/img/large/s1.jpg" data-rel="prettyPhoto"><img
+                                                src="/static/img/large/s1.jpg"
+                                                alt=""/></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slider-item">
+                                <div class="slider-image">
+                                    <div class="hover_colour">
+                                        <a href="/static/img/large/s2.jpg" data-rel="prettyPhoto"><img
+                                                src="/static/img/large/s2.jpg"
+                                                alt=""/></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slider-item">
+                                <div class="slider-image">
+                                    <div class="hover_colour">
+                                        <a href="/static/img/large/s3.jpg" data-rel="prettyPhoto"><img
+                                                src="/static/img/large/s3.jpg"
+                                                alt=""/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sl-prev3" class="widget-scroll-prev3"><i class="fa fa-chevron-left white"></i></div>
+                        <div id="sl-next3" class="widget-scroll-next3"><i
+                                class="fa fa-chevron-right white but_marg"></i>
+                        </div>
+
+                        <div class="pad15"></div>
+                        <blockquote>Watch this space for all of our news and current updates.
+                        </blockquote>
+
+                        <p>
+                            <a href="#" class="zocial icon twitter"></a>
+                            <a href="#" class="zocial icon facebook"></a>
+                            <a href="#" class="zocial icon googleplus"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//page-->
+{% endblock %}
+
+<!-- up to top -->
+<a href="#"><i class="go-top hidden-phone hidden-tablet fa-fa-angle-double-up"></i></a>
+<!--//end-->
+{% block script %}
+    <!-- scripts -->
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/jquery.touchSwipe.min.js"></script>
+    <script src="/static/js/jquery.mousewheel.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="/static/js/scripts.js"></script>
+
+    <!-- slider -->
+    <script src="/static/js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        $(document).ready(function () {
+            $('.nivoSlider').nivoSlider({
+                effect: 'random',
+                animSpeed: 500,
+                pauseTime: 5000,
+                directionNav: true,
+                controlNav: true,
+                pauseOnHover: false,
+                manualAdvance: true
+            });
+        });
+        //]]>
+    </script>
+
+    <!-- carousel -->
+    <script type="text/javascript" src="/static/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        jQuery(document).ready(function ($) {
+            var portfolioCarousel = $("#slider_small");
+            portfolioCarousel.carouFredSel({
+                width: "100%", height: "auto",
+                circular: false, responsive: true, infinite: false, auto: false,
+                items: {
+                    width: 231, visible: {min: 1, max: 1}
+                },
+                mousewheel: true,
+                swipe: {onMouse: true, onTouch: true},
+                prev: {button: "#sl-prev3", key: "left"},
+                next: {button: "#sl-next3", key: "right"},
+                onCreate: function () {
+                    $(window).on('resize', function () {
+                        portfolioCarousel.parent().add(portfolioCarousel).css('height', portfolioCarousel.children().first().outerHeight() + 'px');
+                    }).trigger('resize');
+                }
+            });
+        });
+        //]]>
+    </script>
+{% endblock %}
+
+
