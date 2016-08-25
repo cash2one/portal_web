@@ -106,3 +106,11 @@ TemplateDoesNotExist: tcs.html
 2016-08-22 10:18:01,522 [Thread-83:2468] [django.request:170] [WARNING]- Not Found: /favicon.ico
 2016-08-22 10:49:47,056 [Thread-7:1656] [django.request:170] [WARNING]- Not Found: /favicon.ico
 2016-08-22 15:33:18,082 [Thread-92:10660] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-23 17:35:35,563 [Thread-48:1520] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-08-24 08:52:29,108 [Thread-7:5932] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-08-24 08:52:34,427 [Thread-39:3884] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-08-24 11:57:13,318 [Thread-7:2116] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-08-24 11:57:25,582 [Thread-12:1964] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-08-24 14:52:41,197 [Thread-68:6940] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-08-25 09:22:19,568 [Thread-7:6556] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-08-25 09:22:25,994 [Thread-43:7852] [django.request:182] [WARNING]- Not Found: /favicon.ico
