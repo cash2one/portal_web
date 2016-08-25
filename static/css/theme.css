@@ -413,7 +413,7 @@ background-color: transparent;  }
 	font-size: 60px!important;
     line-height: 1;
     font-weight: 700!important;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #eee;
 	letter-spacing: 6px;
 	padding: 8px 15px!important;
@@ -423,8 +423,15 @@ background-color: transparent;  }
     line-height: 1;
     font-weight: 700!important;
     text-transform: none;
-    color: #eee;
+    color: #627a40;
 	letter-spacing: 2px;
+	padding-left: 40px;
+}
+.rev-title.ft{
+	font-size: 46px!important;
+}
+.rev-title2.ft{
+	font-size: 36px!important;
 }
 .tp-caption.bg {padding: 18px 22px 22px; }
 .big_white{
