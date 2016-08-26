@@ -6,7 +6,7 @@ from models import Para
 
 
 class ParaAdmin(admin.ModelAdmin):
-    list_display = ['key', 'val', 'file', 'explain']
+    list_display = ['key', 'val', 'file', 'explain', 'para1', 'para2', 'para3', 'para4', 'para5']
     # list_filter = []  # 过滤字段
     # list_editable = []  # 列表编辑字段
     # readonly_fields = []  # 只读字段

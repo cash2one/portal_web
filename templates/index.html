@@ -4,48 +4,59 @@
     <div class="fullwidthbanner-container">
         <div class="fullwidthbanner">
             <ul>
+
                 <!-- Slide 1 -->
                 <li data-transition="slideright">
-                    <img src="/static/img/slider/slider5.jpg" alt=""/>
-                     <div class="caption sft stl" data-x="center" data-y="105" data-speed="1000" data-start="700"
+{#                    <img src="{{ banner1.img }}" alt=""/>#}
+{#                     <div class="caption lfl stl bg" data-x="20" data-y="60" data-speed="800" data-start="700"#}
+{#                         data-easing="easeOutExpo">#}
+{#                        <h2 class="rev-title big white">{{ banner1.para1 }}<br>{{ banner1.para2 }}</h2>#}
+{#                    </div>#}
+{#                    <div class="caption lfl stl rev-text rev-left" data-x="left" data-y="190" data-speed="800"#}
+{#                         data-start="1100" data-easing="easeOutExpo">#}
+{#                        <h3 class="hidden-phone rev-title ">{% autoescape off %}{{ banner1.para3 }}{% endautoescape %}</h3>#}
+{#                    </div>#}
+                     <img src="{{ banner1.img }}" alt=""/>
+                     <div class="caption lfl stl bold bg rev-left " data-x="-100" data-y="120" data-speed="800" data-start="1000"
                          data-easing="easeOutExpo">
-                        <h3 class="rev-title bold">FLATI BOOTSTRAP</h3>
+                        <h2 class="rev-title big bold ft">{{ banner1.para1 }}<br>{{ banner1.para2 }}</h2>
                     </div>
-                     <div class="caption lfl stl rev-title-sub" data-x="center" data-y="240" data-speed="800"
-                         data-start="1100" data-easing="easeOutExpo">
-                        CREATE - DESIGN - CODE
+{#                     <div class="caption stl rev-text rev-left" data-x="-100" data-y="260" data-speed="800" data-start="2100"#}
+{#                         data-easing="easeOutExpo">#}
+{#                        <h3 class="hidden-phone rev-title rev-title2 bold ft">{% autoescape off %}{{ banner1.para3 }}{% endautoescape %}</h3>#}
+{#                    </div>#}
+                    <div class="caption stl rev-text rev-left" data-x="-60" data-y="260" data-speed="800"
+                         data-start="1800" data-easing="easeOutExpo">
+                        <h3 class="hidden-phone rev-title2">{% autoescape off %}{{ banner1.para3 }}{% endautoescape %}</h3>
                     </div>
                 </li>
 
                 <!-- Slide 2 -->
-                <li data-transition="slideleft">
-                    <img src="/static/img/slider/slider6.jpg" alt=""/>
-                     <div class="caption lfl stl bg" data-x="20" data-y="60" data-speed="800" data-start="700"
-                         data-easing="easeOutExpo">
-                        <h2 class="rev-title big white">Creative Slider<br>It's a Revolution!</h2>
-                    </div>
-                    <div class="caption lfl stl rev-text rev-left" data-x="left" data-y="190" data-speed="800"
-                         data-start="1100" data-easing="easeOutExpo">
-                        <p class="hidden-phone">Turn simple HTML code into a responsive sliderwith
-                            must-see-effects,<br/>
-                            it's Slider Revolution! All elements are included in the download,<br/>
-                            plus a psd file of the iMac to add your own screenshot to.
-                            <br/>Get Creative!</p>
-                    </div>
-                </li>
-
-                 <!-- Slide 3 -->
-                <li data-transition="slideleft">
-                    <img src="/static/img/slider/slider7.jpg" alt=""/>
+                <li data-transition="slideright">
+                    <img src="{{ banner2.img }}" alt=""/>
                      <div class="caption lfl stl bold bg rev-left " data-x="-100" data-y="120" data-speed="800" data-start="1000"
                          data-easing="easeOutExpo">
-                        <h2 class="rev-title big bold ft">This is a text</h2>
+                        <h2 class="rev-title big bold ft">{{ banner2.para1 }}</h2>
                     </div>
                      <div class="caption sfb rev-left" data-x="-100" data-y="260" data-speed="800" data-start="2100"
                          data-easing="easeOutExpo">
-                        <h3 class="rev-title2 bold ft">This is a text This is a text</h3>
+                        <h3 class="rev-title2 bold ft">{{ banner2.para2 }}</h3>
                     </div>
                 </li>
+
+                <!-- Slide 3 -->
+                <li data-transition="slideright">
+                    <img src="{{ banner3.img }}" alt=""/>
+                     <div class="caption sft stl" data-x="center" data-y="105" data-speed="1000" data-start="700"
+                         data-easing="easeOutExpo">
+                        <h3 class="rev-title bold">{{ banner3.para1 }}</h3>
+                    </div>
+                     <div class="caption lfl stl rev-title-sub" data-x="center" data-y="240" data-speed="800"
+                         data-start="1100" data-easing="easeOutExpo">
+                        {{ banner3.para2 }}
+                    </div>
+                </li>
+
             </ul>
             <div class="tp-bannertimer tp-bottom"></div>
         </div>
@@ -148,116 +159,28 @@
                                 tamquam postulant, pri id mazim nostrud diceret
                                 sapientem eloquentiam sea cu, sea ut exerci delicata. Corrumpit vituperata.</p>
 
-                            <a href="#" class="btn btn-primary  btn-custom btn-rounded">view portfolio</a>
+{#                            <a href="#" class="btn btn-primary  btn-custom btn-rounded">view detail</a>#}
                             <div class="pad45"></div>
                         </div>
                         <!--column 2 slider-->
                         <div class="span8 pad15 col_full2">
 
                             <div id="slider_home">
+                                {% for r in recentwork.projs %}
                                 <div class="slider-item">
                                     <div class="slider-image">
                                         <div class="hover_colour">
-                                            <a href="/static/img/large/s1.jpg" data-rel="prettyPhoto">
-                                                <img src="/static/img/small/s1.jpg" alt=""/></a>
+                                            <a href="{{ r.file.url }}" data-rel="prettyPhoto">
+                                                <img src="{{ r.file.url }}" alt=""/></a>
                                         </div>
                                     </div>
                                     <div class="slider-title">
-                                        <h3><a href="#">catalogue</a></h3>
-                                        <p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
+                                        <h3><a href="#">{{ r.para1 }}</a></h3>
+                                        <p>{{ r.para2 }}</p>
                                     </div>
                                 </div>
+                                {% endfor %}
 
-                                <div class="slider-item">
-                                    <div class="slider-image">
-                                        <div class="hover_colour">
-                                            <a href="/static/img/large/s2.jpg" data-rel="prettyPhoto">
-                                                <img src="/static/img/small/s2.jpg" alt=""/></a>
-                                        </div>
-                                    </div>
-                                    <div class="slider-title">
-                                        <h3><a href="#">loupe</a></h3>
-                                        <p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-                                    </div>
-                                </div>
-
-                                <div class="slider-item">
-                                    <div class="slider-image">
-                                        <div class="hover_colour">
-                                            <a href="/static/img/large/s3.jpg" data-rel="prettyPhoto">
-                                                <img src="/static/img/small/s3.jpg" alt=""/></a>
-                                        </div>
-                                    </div>
-                                    <div class="slider-title">
-                                        <h3><a href="#">retro rocket</a></h3>
-                                        <p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-                                    </div>
-                                </div>
-
-                                <div class="slider-item">
-                                    <div class="slider-image">
-                                        <div class="hover_colour">
-                                            <a href="/static/img/large/s4.jpg" data-rel="prettyPhoto">
-                                                <img src="/static/img/small/s4.jpg" alt=""/></a>
-                                        </div>
-                                    </div>
-                                    <div class="slider-title">
-                                        <h3><a href="#">infographics</a></h3>
-                                        <p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-                                    </div>
-                                </div>
-
-                                <div class="slider-item">
-                                    <div class="slider-image">
-                                        <div class="hover_colour">
-                                            <a href="/static/img/large/s5.jpg" data-rel="prettyPhoto">
-                                                <img src="/static/img/small/s5.jpg" alt=""/></a>
-                                        </div>
-                                    </div>
-                                    <div class="slider-title">
-                                        <h3><a href="#">mock up</a></h3>
-                                        <p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-                                    </div>
-                                </div>
-
-                                <div class="slider-item">
-                                    <div class="slider-image">
-                                        <div class="hover_colour">
-                                            <a href="/static/img/large/s6.jpg" data-rel="prettyPhoto">
-                                                <img src="/static/img/small/s6.jpg" alt=""/></a>
-                                        </div>
-                                    </div>
-                                    <div class="slider-title">
-                                        <h3><a href="#">retro badges</a></h3>
-                                        <p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-                                    </div>
-                                </div>
-
-                                <div class="slider-item">
-                                    <div class="slider-image">
-                                        <div class="hover_colour">
-                                            <a href="/static/img/large/s7.jpg" data-rel="prettyPhoto">
-                                                <img src="/static/img/small/s7.jpg" alt=""/></a>
-                                        </div>
-                                    </div>
-                                    <div class="slider-title">
-                                        <h3><a href="#">details</a></h3>
-                                        <p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-                                    </div>
-                                </div>
-
-                                <div class="slider-item">
-                                    <div class="slider-image">
-                                        <div class="hover_colour">
-                                            <a href="/static/img/large/s8.jpg" data-rel="prettyPhoto">
-                                                <img src="/static/img/small/s8.jpg" alt=""/></a>
-                                        </div>
-                                    </div>
-                                    <div class="slider-title">
-                                        <h3><a href="#">vintage form</a></h3>
-                                        <p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-                                    </div>
-                                </div>
                             </div>
                             <div id="sl-prev" class="widget-scroll-prev"><i class="fa fa-chevron-left white"></i></div>
                             <div id="sl-next" class="widget-scroll-next"><i

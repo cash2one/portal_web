@@ -6,7 +6,7 @@ from models import banner
 
 
 class bannerAdmin(admin.ModelAdmin):
-    list_display = ['banner', 'info',]
+    list_display = ['id', 'banner', 'info', 'para1', 'para2', 'para3', 'para4']
 
 admin.site.register(banner, bannerAdmin)
 

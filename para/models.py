@@ -22,6 +22,6 @@ class Para(models.Model):
         verbose_name = u"参数"
 
     def __unicode__(self):
-        return None
+        return self.key
 
 

@@ -114,3 +114,191 @@ TemplateDoesNotExist: tcs.html
 2016-08-24 14:52:41,197 [Thread-68:6940] [django.request:182] [WARNING]- Not Found: /favicon.ico
 2016-08-25 09:22:19,568 [Thread-7:6556] [django.request:182] [WARNING]- Not Found: /favicon.ico
 2016-08-25 09:22:25,994 [Thread-43:7852] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-08-25 09:53:44,450 [Thread-51:7276] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-25 13:43:49,096 [Thread-49:17960] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-25 13:54:13,062 [Thread-210:6756] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-25 14:01:28,421 [Thread-62:24052] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-25 14:13:00,141 [Thread-278:12484] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-25 15:23:45,226 [Thread-7:10420] [django.request:256] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:/git/portal_web/trunk\content\views.py", line 42, in mainpage
+    return render(request, 'index.html', ctx)
+NameError: global name 'ctx' is not defined
+2016-08-25 15:24:07,000 [Thread-7:4584] [django.request:256] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:/git/portal_web/trunk\content\views.py", line 41, in mainpage
+    ctx = commonfunc('homeactive')
+  File "C:/git/portal_web/trunk\content\views.py", line 8, in commonfunc
+    ctx['homeactive'] = 'active'
+TypeError: list indices must be integers, not str
+2016-08-25 15:24:08,835 [Thread-8:24968] [django.request:256] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:/git/portal_web/trunk\content\views.py", line 41, in mainpage
+    ctx = commonfunc('homeactive')
+  File "C:/git/portal_web/trunk\content\views.py", line 8, in commonfunc
+    ctx['homeactive'] = 'active'
+TypeError: list indices must be integers, not str
+2016-08-25 15:35:30,585 [Thread-112:20308] [django.request:170] [WARNING]- Not Found: /media/banner/banner01.jpg
+2016-08-25 15:35:38,690 [Thread-25:12872] [django.request:170] [WARNING]- Not Found: /media/banner/banner02.jpg
+2016-08-25 16:23:11,898 [Thread-27:23148] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:23:12,365 [Thread-44:9988] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:23:13,006 [Thread-45:7152] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:23:26,914 [Thread-46:744] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:23:31,377 [Thread-47:21916] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:23:41,252 [Thread-48:12876] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:23:50,515 [Thread-49:18248] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:23:59,736 [Thread-50:24464] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:24:08,933 [Thread-51:7816] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:24:18,539 [Thread-52:22716] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:24:27,585 [Thread-53:8640] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:24:36,838 [Thread-54:10864] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:24:46,122 [Thread-55:13400] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:24:55,278 [Thread-56:13144] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:25:04,683 [Thread-57:17036] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:25:13,878 [Thread-58:16396] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:25:21,490 [Thread-59:24412] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:25:44,990 [Thread-64:17760] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:26:37,332 [Thread-8:12220] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:26:58,039 [Thread-7:21468] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:27:19,130 [Thread-7:5928] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 16:27:34,938 [Thread-7:12716] [django.request:170] [WARNING]- Not Found: /media/banner/banner03.jpg
+2016-08-25 17:43:44,888 [Thread-7:11672] [django.request:256] [ERROR]- Internal Server Error: /admin/para/para/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 618, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1518, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1472, in changeform_view
+    self.log_addition(request, new_object)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 812, in log_addition
+    object_repr=force_text(object),
+  File "C:\Python27\lib\site-packages\django\utils\encoding.py", line 92, in force_text
+    s = six.text_type(s)
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+2016-08-25 17:45:26,719 [Thread-9:19620] [django.request:256] [ERROR]- Internal Server Error: /admin/para/para/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 618, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1518, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1472, in changeform_view
+    self.log_addition(request, new_object)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 812, in log_addition
+    object_repr=force_text(object),
+  File "C:\Python27\lib\site-packages\django\utils\encoding.py", line 92, in force_text
+    s = six.text_type(s)
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+2016-08-25 17:45:39,691 [Thread-11:20304] [django.request:256] [ERROR]- Internal Server Error: /admin/para/para/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 618, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1518, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1472, in changeform_view
+    self.log_addition(request, new_object)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 812, in log_addition
+    object_repr=force_text(object),
+  File "C:\Python27\lib\site-packages\django\utils\encoding.py", line 92, in force_text
+    s = six.text_type(s)
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+2016-08-25 17:47:59,549 [Thread-13:23428] [django.request:256] [ERROR]- Internal Server Error: /admin/para/para/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 618, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1518, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1472, in changeform_view
+    self.log_addition(request, new_object)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 812, in log_addition
+    object_repr=force_text(object),
+  File "C:\Python27\lib\site-packages\django\utils\encoding.py", line 92, in force_text
+    s = six.text_type(s)
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+2016-08-25 17:53:56,976 [Thread-7:23768] [django.request:256] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:/git/portal_web/trunk\content\views.py", line 77, in mainpage
+    ctx = recentword(ctx)
+  File "C:/git/portal_web/trunk\content\views.py", line 70, in recentword
+    ctx['recentwork'] = {'projs', projs}
+TypeError: unhashable type: 'list'
+2016-08-25 17:54:59,046 [Thread-29:14536] [django.request:170] [WARNING]- Not Found: /files/banner01_FZvZKZp.jpg
+2016-08-25 17:55:20,066 [Thread-45:22520] [django.request:170] [WARNING]- Not Found: /files/banner01_FZvZKZp.jpg
+2016-08-25 17:56:42,076 [Thread-7:16760] [django.request:170] [WARNING]- Not Found: /files/banner01_FZvZKZp.jpg
+2016-08-25 17:56:49,903 [Thread-30:11800] [django.request:170] [WARNING]- Not Found: /files/banner01_FZvZKZp.jpg
+2016-08-25 17:56:55,210 [Thread-68:18704] [django.request:170] [WARNING]- Not Found: /files/banner01_FZvZKZp.jpg
+2016-08-25 17:57:00,158 [Thread-104:17404] [django.request:170] [WARNING]- Not Found: /files/banner01_FZvZKZp.jpg
+2016-08-25 17:57:14,621 [Thread-120:25904] [django.request:170] [WARNING]- Not Found: /files/banner01_FZvZKZp.jpg
+2016-08-26 16:10:14,818 [Thread-469:4544] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-26 17:01:25,220 [Thread-1094:9292] [django.request:170] [WARNING]- Not Found: /favicon.ico

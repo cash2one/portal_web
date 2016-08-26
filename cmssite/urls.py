@@ -36,7 +36,7 @@ urlpatterns = [
 
 urlpatterns += [
     url(r'^media/(?P<path>.*)', 'django.views.static.serve',
-        {'document_root': 'c://git//cms//static//'}),
+        {'document_root': 'c://git//portal_web//trunk//media'}),
 ]
 
 urlpatterns += patterns('api.views',
