@@ -85,35 +85,17 @@
                     <div class="col_full">
 
                         <div id="slider_small">
+                            {% for r in recentwork.projs %}
                             <div class="slider-item">
                                 <div class="slider-image">
                                     <div class="hover_colour">
-                                        <a href="/static/img/large/s1.jpg" data-rel="prettyPhoto"><img
-                                                src="/static/img/large/s1.jpg"
+                                        <a href="{{ r.file.url }}" data-rel="prettyPhoto"><img
+                                                src="{{ r.file.url }}"
                                                 alt=""/></a>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="slider-item">
-                                <div class="slider-image">
-                                    <div class="hover_colour">
-                                        <a href="/static/img/large/s2.jpg" data-rel="prettyPhoto"><img
-                                                src="/static/img/large/s2.jpg"
-                                                alt=""/></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slider-item">
-                                <div class="slider-image">
-                                    <div class="hover_colour">
-                                        <a href="/static/img/large/s3.jpg" data-rel="prettyPhoto"><img
-                                                src="/static/img/large/s3.jpg"
-                                                alt=""/></a>
-                                    </div>
-                                </div>
-                            </div>
+                            {% endfor %}
                         </div>
                         <div id="sl-prev3" class="widget-scroll-prev3"><i class="fa fa-chevron-left white"></i></div>
                         <div id="sl-next3" class="widget-scroll-next3"><i

@@ -31,6 +31,7 @@ urlpatterns = [
     url(r'^digital/', 'content.views.digital'),
     url(r'^about/', 'content.views.about'),
     url(r'^contact/', 'content.views.contact'),
+    url(r'^commit_contact/', 'content.views.commit_contact'),
 
 ]
 

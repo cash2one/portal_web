@@ -1,4 +1,7 @@
 # coding=utf-8
+import json
+
+from django.http import HttpResponse
 from django.shortcuts import render
 
 from content.models import banner
@@ -71,6 +74,24 @@ def recentword(ctx):
     return ctx
 
 
+def mobileprojs(ctx):
+    projs = []
+    mbprojs = Para.objects.filter(key__contains='KEY_MOBILEPROJ_').order_by('-id')
+    for r in mbprojs:
+        projs.append(r)
+    ctx['mobileprojs'] = {'projs': projs}
+    return ctx
+
+
+def digitalprojs(ctx):
+    projs = []
+    dgtprojs = Para.objects.filter(key__contains='KEY_DIGITALPROJ_').order_by('-id')
+    for r in dgtprojs:
+        projs.append(r)
+    ctx['digitalprojs'] = {'projs': projs}
+    return ctx
+
+
 def mainpage(request):
     ctx = commonfunc('homeactive')
     ctx = loadbanner(ctx)
@@ -80,31 +101,37 @@ def mainpage(request):
 
 def tcs(request):
     ctx = commonfunc('serviceactive')
+    ctx = recentword(ctx)
     return render(request, 'tcs.html', ctx)
 
 
 def ito(request):
     ctx = commonfunc('serviceactive')
+    ctx = recentword(ctx)
     return render(request, 'ito.html', ctx)
 
 
 def bpo(request):
     ctx = commonfunc('serviceactive')
+    ctx = recentword(ctx)
     return render(request, 'bpo.html', ctx)
 
 
 def pgs(request):
     ctx = commonfunc('serviceactive')
+    ctx = recentword(ctx)
     return render(request, 'pgs.html', ctx)
 
 
 def mobsolu(request):
     ctx = commonfunc('solutionactive')
+    ctx = mobileprojs(ctx)
     return render(request, 'mobile_solutions.html', ctx)
 
 
 def digital(request):
     ctx = commonfunc('solutionactive')
+    ctx = digitalprojs(ctx)
     return render(request, 'digital.html', ctx)
 
 
@@ -116,3 +143,25 @@ def about(request):
 def contact(request):
     ctx = commonfunc('contactactive')
     return render(request, 'contact.html', ctx)
+
+
+def commit_contact(request):
+    ctx = commonfunc('contactactive')
+    js = request.REQUEST
+    email = js['email']
+    message = js['message']
+    name = js['name']
+    subject = js['subject']
+    if email == ''  or name == '':
+        dictResp = {'ret': 'Email and Name can not be None!'}
+        return HttpResponse(json.dumps(dictResp, ensure_ascii=False))
+
+    idxs = Para.objects.filter(key__contains='KEY_MESSAGE_').order_by('-id')
+    if idxs:
+        idx = idxs[0].id + 1
+    else:
+        idx = 1
+
+    Para(key='KEY_MESSAGE_'+str(idx), para1=email, para2=name, para3=message, para4=subject).save()
+    dictResp = {'ret': 'OK'}
+    return HttpResponse(json.dumps(dictResp, ensure_ascii=False))

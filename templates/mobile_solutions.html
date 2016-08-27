@@ -82,85 +82,18 @@
             <div class="inner_content col_full">
 
                 <div id="slider_related">
+                    {% for m in mobileprojs.projs %}
                     <div class="slider-item">
                         <div class="slider-image">
                             <div class="hover_colour">
-                                <a href="/static/img/large/s1.jpg" data-rel="prettyPhoto[portfolio1]">
-                                    <img src="/static/img/small/s1.jpg" alt=""/></a>
+                                <a href="{{ m.file.url }}" data-rel="prettyPhoto[portfolio1]">
+                                    <img src="{{ m.file.url }}" alt=""/></a>
                             </div>
-                            <a class="related_link" href="#">Item Link</a>
+                            <a class="related_link" href="#">{{ m.para1 }}</a>
                         </div>
                     </div>
+                    {% endfor %}
 
-                    <div class="slider-item">
-                        <div class="slider-image">
-                            <div class="hover_colour">
-                                <a href="/static/img/large/s2.jpg" data-rel="prettyPhoto[portfolio1]">
-                                    <img src="/static/img/small/s2.jpg" alt=""/></a>
-                            </div>
-                            <a class="related_link" href="#">Item Link</a>
-                        </div>
-                    </div>
-
-                    <div class="slider-item">
-                        <div class="slider-image">
-                            <div class="hover_colour">
-                                <a href="/static/img/large/s3.jpg" data-rel="prettyPhoto[portfolio1]">
-                                    <img src="/static/img/small/s3.jpg" alt=""/></a>
-                            </div>
-                            <a class="related_link" href="#">Item Link</a>
-                        </div>
-                    </div>
-
-                    <div class="slider-item">
-                        <div class="slider-image">
-                            <div class="hover_colour">
-                                <a href="/static/img/large/s4.jpg" data-rel="prettyPhoto[portfolio1]">
-                                    <img src="/static/img/small/s4.jpg" alt=""/></a>
-                            </div>
-                            <a class="related_link" href="#">Item Link</a>
-                        </div>
-                    </div>
-
-                    <div class="slider-item">
-                        <div class="slider-image">
-                            <div class="hover_colour">
-                                <a href="/static/img/large/s5.jpg" data-rel="prettyPhoto[portfolio1]">
-                                    <img src="/static/img/small/s5.jpg" alt=""/></a>
-                            </div>
-                            <a class="related_link" href="#">Item Link</a>
-                        </div>
-                    </div>
-
-                    <div class="slider-item">
-                        <div class="slider-image">
-                            <div class="hover_colour">
-                                <a href="/static/img/large/s1.jpg" data-rel="prettyPhoto[portfolio1]">
-                                    <img src="/static/img/small/s1.jpg" alt=""/></a>
-                            </div>
-                            <a class="related_link" href="#">Item Link</a>
-                        </div>
-                    </div>
-
-                    <div class="slider-item">
-                        <div class="slider-image">
-                            <div class="hover_colour">
-                                <a href="/static/img/large/s7.jpg" data-rel="prettyPhoto[portfolio1]">
-                                    <img src="/static/img/small/s7.jpg" alt=""/></a>
-                            </div>
-                            <a class="related_link" href="#">Item Link</a>
-                        </div>
-                    </div>
-
-                    <div class="slider-item">
-                        <div class="slider-image">
-                            <div class="hover_colour">
-                                <a href="/static/img/large/s8.jpg" data-rel="prettyPhoto[portfolio1]">
-                                    <img src="/static/img/small/s8.jpg" alt=""/></a>
-                            </div>
-                            <a class="related_link" href="#">Item Link</a>
-                        </div>
-                    </div>
                 </div>
                 <div id="sl-prev2" class="widget-scroll-prev2"><i class="fa fa-chevron-left white"></i></div>
                 <div id="sl-next2" class="widget-scroll-next2"><i class="fa fa-chevron-right white but_marg"></i></div>

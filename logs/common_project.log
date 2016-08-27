@@ -302,3 +302,361 @@ TypeError: unhashable type: 'list'
 2016-08-25 17:57:14,621 [Thread-120:25904] [django.request:170] [WARNING]- Not Found: /files/banner01_FZvZKZp.jpg
 2016-08-26 16:10:14,818 [Thread-469:4544] [django.request:170] [WARNING]- Not Found: /favicon.ico
 2016-08-26 17:01:25,220 [Thread-1094:9292] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-26 17:24:10,335 [Thread-1672:10788] [django.request:98] [WARNING]- Forbidden (CSRF token missing or incorrect.): /contact/contact_form/contact_process.php
+2016-08-26 17:42:57,394 [Thread-28:3496] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:42:59,273 [Thread-29:11452] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:43:10,641 [Thread-30:6076] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:43:14,267 [Thread-31:8208] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:43:51,959 [Thread-7:11908] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:43:53,367 [Thread-8:12084] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:43:56,763 [Thread-29:4628] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:45:37,746 [Thread-50:6076] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:46:10,947 [Thread-71:11744] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:47:45,973 [Thread-92:11824] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:47:58,572 [Thread-93:11928] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:48:23,232 [Thread-114:11272] [django.request:98] [WARNING]- Forbidden (CSRF token missing or incorrect.): /contact/commit_contact
+2016-08-26 17:48:36,016 [Thread-135:10172] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:50:18,502 [Thread-162:4592] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:56:41,016 [Thread-183:1112] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:56:55,266 [Thread-184:8984] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:57:39,167 [Thread-185:10032] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:57:49,318 [Thread-206:6672] [django.request:256] [ERROR]- Internal Server Error: /contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:57:51,372 [Thread-207:11692] [django.request:256] [ERROR]- Internal Server Error: /contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:57:53,038 [Thread-208:10716] [django.request:256] [ERROR]- Internal Server Error: /contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:57:54,059 [Thread-209:9268] [django.request:256] [ERROR]- Internal Server Error: /contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 17:58:32,664 [Thread-235:9332] [django.request:98] [WARNING]- Forbidden (CSRF token missing or incorrect.): /contact/
+2016-08-26 17:58:34,144 [Thread-236:8776] [django.request:98] [WARNING]- Forbidden (CSRF token missing or incorrect.): /contact/
+2016-08-26 17:58:35,214 [Thread-237:6692] [django.request:98] [WARNING]- Forbidden (CSRF token missing or incorrect.): /contact/
+2016-08-26 17:58:35,891 [Thread-238:7588] [django.request:98] [WARNING]- Forbidden (CSRF token missing or incorrect.): /contact/
+2016-08-26 17:58:40,032 [Thread-239:4276] [django.request:98] [WARNING]- Forbidden (CSRF token missing or incorrect.): /contact/
+2016-08-26 17:58:43,865 [Thread-240:8984] [django.request:98] [WARNING]- Forbidden (CSRF token missing or incorrect.): /contact/
+2016-08-26 18:01:18,114 [Thread-28:5972] [django.request:170] [WARNING]- Not Found: /commit_contact
+2016-08-26 18:01:20,401 [Thread-29:6280] [django.request:170] [WARNING]- Not Found: /commit_contact
+2016-08-26 18:01:30,663 [Thread-30:12244] [django.request:170] [WARNING]- Not Found: /commit_contact
+2016-08-26 18:01:43,562 [Thread-31:1280] [django.request:170] [WARNING]- Not Found: /commit_contact
+2016-08-26 18:01:48,576 [Thread-32:2640] [django.request:170] [WARNING]- Not Found: /commit_contact
+2016-08-26 18:04:13,855 [Thread-27:11404] [django.request:170] [WARNING]- Not Found: /commit_contact
+2016-08-26 18:04:46,461 [Thread-28:5384] [django.request:170] [WARNING]- Not Found: /commit_contact
+2016-08-26 18:05:30,240 [Thread-27:9332] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 18:05:44,894 [Thread-27:1680] [django.request:170] [WARNING]- Not Found: /commit_contact
+2016-08-26 18:06:10,676 [Thread-30:4432] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 18:06:12,959 [Thread-31:920] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 18:07:28,789 [Thread-32:9136] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 18:11:54,101 [Thread-33:5516] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 18:13:10,134 [Thread-74:17724] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 18:16:20,786 [Thread-75:17808] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 18:16:22,592 [Thread-76:17648] [django.request:256] [ERROR]- Internal Server Error: /commit_contact
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "C:\Python27\lib\site-packages\django\middleware\common.py", line 84, in process_request
+    "settings.") % (new_url[0], new_url[1]))
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/commit_contact/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-08-26 18:33:57,963 [Thread-7:12024] [django.request:256] [ERROR]- Internal Server Error: /commit_contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 367, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 239, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 246, in callback
+    self._callback = get_callable(self._callback_str)
+  File "C:\Python27\lib\site-packages\django\utils\lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 105, in get_callable
+    mod = import_module(mod_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:/git/portal_web/trunk\content\views.py", line 129
+    if email is None or
+                       ^
+SyntaxError: invalid syntax
+2016-08-26 18:34:04,145 [Thread-8:12076] [django.request:256] [ERROR]- Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 367, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 239, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 246, in callback
+    self._callback = get_callable(self._callback_str)
+  File "C:\Python27\lib\site-packages\django\utils\lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 105, in get_callable
+    mod = import_module(mod_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:/git/portal_web/trunk\content\views.py", line 129
+    if email is None or
+                      ^
+SyntaxError: invalid syntax
+2016-08-26 18:35:51,321 [Thread-29:16476] [django.request:256] [ERROR]- Internal Server Error: /commit_contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "C:\Python27\lib\site-packages\django\middleware\gzip.py", line 17, in process_response
+    if not response.streaming and len(response.content) < 200:
+AttributeError: 'str' object has no attribute 'streaming'
+2016-08-26 18:36:07,342 [Thread-30:15708] [django.request:256] [ERROR]- Internal Server Error: /commit_contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "C:\Python27\lib\site-packages\django\middleware\gzip.py", line 17, in process_response
+    if not response.streaming and len(response.content) < 200:
+AttributeError: 'str' object has no attribute 'streaming'
+2016-08-26 18:36:56,869 [Thread-37:14648] [django.request:256] [ERROR]- Internal Server Error: /commit_contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "C:\Python27\lib\site-packages\django\middleware\gzip.py", line 17, in process_response
+    if not response.streaming and len(response.content) < 200:
+AttributeError: 'str' object has no attribute 'streaming'
+2016-08-26 18:41:49,401 [Thread-60:14492] [django.request:256] [ERROR]- Internal Server Error: /commit_contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "C:\Python27\lib\site-packages\django\middleware\gzip.py", line 17, in process_response
+    if not response.streaming and len(response.content) < 200:
+AttributeError: 'str' object has no attribute 'streaming'
+2016-08-26 18:42:00,460 [Thread-62:14456] [django.request:256] [ERROR]- Internal Server Error: /commit_contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "C:\Python27\lib\site-packages\django\middleware\gzip.py", line 17, in process_response
+    if not response.streaming and len(response.content) < 200:
+AttributeError: 'str' object has no attribute 'streaming'
+2016-08-26 18:49:45,171 [Thread-7:14328] [django.request:256] [ERROR]- Internal Server Error: /commit_contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "C:\Python27\lib\site-packages\django\middleware\gzip.py", line 17, in process_response
+    if not response.streaming and len(response.content) < 200:
+AttributeError: 'str' object has no attribute 'streaming'
+2016-08-26 18:57:43,990 [Thread-72:13332] [django.request:256] [ERROR]- Internal Server Error: /commit_contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:/git/portal_web/trunk\content\views.py", line 141, in commit_contact
+    Para(key='KEY_MESSAGE_'+str(idx), para1=email, para2=name, para3=message, para4=subject).save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 98, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 318, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: column key is not unique
+2016-08-26 18:57:47,426 [Thread-73:14300] [django.request:256] [ERROR]- Internal Server Error: /commit_contact/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:/git/portal_web/trunk\content\views.py", line 141, in commit_contact
+    Para(key='KEY_MESSAGE_'+str(idx), para1=email, para2=name, para3=message, para4=subject).save()
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 734, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 762, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 846, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python27\lib\site-packages\django\db\models\base.py", line 885, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python27\lib\site-packages\django\db\models\manager.py", line 127, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\db\models\query.py", line 920, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python27\lib\site-packages\django\db\models\sql\compiler.py", line 974, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\utils.py", line 98, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python27\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python27\lib\site-packages\django\db\backends\sqlite3\base.py", line 318, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: column key is not unique
+2016-08-27 11:50:10,371 [Thread-119:10164] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-27 12:05:28,575 [Thread-45:10236] [django.request:170] [WARNING]- Not Found: /favicon.ico
